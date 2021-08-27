@@ -15,6 +15,7 @@ putchar(tolower(x));
 for (x = 'a'; x <= 'z'; x++)
 {
 putchar(toupper(x));
+ putchar('\n');
 }
 return (0);
 }
