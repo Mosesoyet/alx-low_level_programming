@@ -4,12 +4,10 @@
 *main- Main have loop to print out base16
 *Return: Return 0 success
 */
-
 int main(void)
 {
 int k;
 char ch;
- 
 for (k = 48; k < 58; k++)
 {
 putchar(k);

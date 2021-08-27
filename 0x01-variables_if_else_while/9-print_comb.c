@@ -4,15 +4,12 @@
 *main- Main contains nested loop
 *Return: Always 0 success
 */
-
-
 int main(void)
 {
 int t;
-
 for (t = 48; t < 58; t++)
 {
-putchar(n);
+putchar(t);
 if (t != 57)
 {
 putchar(',');
