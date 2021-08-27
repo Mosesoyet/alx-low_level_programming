@@ -6,15 +6,21 @@
 */
 int main(void)
 {
-int x;
-for (x != 0; x < 100; x++)
+int x, m;
+for (x = 48; x <= 56; x++)
 {
-putchar((x % 10) + '0');
-putchar((x / 10) + '0');
-if (x != 89)
+for (m = 49; m <= 57; m++)
+{
+if (m > x)
+{
+putchar(x);
+putchar(m);
+if (x != 56 || m != 57)
 {
 putchar(',');
 putchar(' ');
+}
+}
 }
 }
 putchar('\n');
