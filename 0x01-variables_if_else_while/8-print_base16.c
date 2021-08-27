@@ -8,9 +8,15 @@
 int main(void)
 {
 int k;
-for (k = 0; k < 10; k++)
+char ch;
+ 
+for (k = 48; k < 58; k++)
 {
-putchar((k % 10) + '0');
+putchar(k);
+}
+for (ch = 'a'; ch <= 'f'; ch++)
+{
+putchar(ch);
 }
 putchar('\n');
 return (0);
