@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*Main -  should always return data size
+*main- Main contain expression for data sizes
 *Return: Always 0 if not zero
 */
 int main(void)
