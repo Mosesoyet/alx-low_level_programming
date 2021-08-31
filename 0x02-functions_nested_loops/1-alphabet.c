@@ -1,17 +1,15 @@
 #include "main.h"
 /**
-*main - contain statement and loop
+*main - _print_alpphabet
 *Return: Always 0 success
 */
 int main(void)
 {
-char x = 'a';
-do
+char x;
+for (x = 'a'; x <= 'z'; x++)
 {
 _putchar(x);
-x++;
 }
-while (x <= 'z');
 _putchar('\n');
 return (0);
 }
