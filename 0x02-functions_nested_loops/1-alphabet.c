@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *main - _print_alpphabet
-*Return: Always 0 success
+*Return: Always void success
 */
 void print_alphabet(void)
 {
@@ -11,5 +11,5 @@ for (x = 'a'; x <= 'z'; x++)
 _putchar(x);
 }
 _putchar('\n');
-return (0);
+return (void);
 }
