@@ -16,7 +16,7 @@ _putchar(y);
 y++;
 }
 _putchar(x);
-X++;
+x++;
 }
 _putchar('\n');
 }
