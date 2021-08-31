@@ -1,18 +1,20 @@
 #include "main.h"
 /**
-*print_alphabet_x10 - Entry point
-*Description: Contain nested while loop 
-*Return: void
+* print_alphabet_x10 - entry point
+*
+* Description: Prints the alphabet with _putchar ten times
+*
+* Return: void
 */
 void print_alphabet_x10(void)
 {
-int x;
-char y;
-for (x = 0; x < 10; x++)
+char c;
+int i;
+for (i = 0; i < 10; i++)
 {
-for (y = 'a'; y <= 'z'; y++)
+for (c = 'a'; c <= 'z'; c++)
 {
-_putchar(y);
+_putchar(c);
 }
 _putchar('\n');
 }
