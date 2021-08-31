@@ -18,5 +18,4 @@ y++;
 _putchar(x);
 x++;
 }
-_putchar('\n');
 }
