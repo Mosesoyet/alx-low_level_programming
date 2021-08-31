@@ -1,9 +1,9 @@
-#include "holberton.h"
+#include "main.h"
 /**
 *main - _print_alpphabet
 *Return: Always 0 success
 */
-int main(void)
+void print_alphabet(void)
 {
 char x;
 for (x = 'a'; x <= 'z'; x++)
