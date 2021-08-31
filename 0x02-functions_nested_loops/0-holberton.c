@@ -11,7 +11,7 @@ char s[] = "Holberton\n";
 while (i <= 9)
 {
 c = s[9];
-putchar(c);
+_putchar(c);
 i++;
 }
 return (0);
