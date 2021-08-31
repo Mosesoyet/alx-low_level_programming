@@ -5,14 +5,13 @@
 */
 int main(void)
 {
+char school[] = "_putchar";
 int i = 0;
-char c;
-char s[] = "_putchar";
-while (i <= 9)
+while (school[i] != '\0')
 {
-c = s[9];
-_putchar(c);
+_putchar(school[i]);
 i++;
 }
+_putchar('\n');
 return (0);
 }
