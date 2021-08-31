@@ -4,7 +4,7 @@
 *Description: Contain nested loop
 *Return: always 1 else 0
 */
-int _islower(int c);
+int _islower(int c)
 {
 scantf("%c", &c);
 c = getchar();
