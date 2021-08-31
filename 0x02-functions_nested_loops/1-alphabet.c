@@ -4,7 +4,7 @@
 *Description: prints the alphabet with _putchar
 *Return: void
 */
-void print_alphabet(void)
+void print_alphabet()
 {
 char x;
 for (x = 'a'; x <= 'z'; x++)
