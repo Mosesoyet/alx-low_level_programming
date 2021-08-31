@@ -6,13 +6,13 @@
 */
 int _islower(int c);
 {
-  scantf("%c", &c);
-  c = getchar();
-  for (c = 'a'; c <= 'z'; c++)
-    {
-      if (_islower(c))
-	return (1);
-      else
-	return (0);
-    }
+scantf("%c", &c);
+c = getchar();
+for (c = 'a'; c <= 'z'; c++)
+{
+if (_islower(c))
+return (1);
+else
+return (0);
+}
 }
