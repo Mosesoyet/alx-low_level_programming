@@ -4,13 +4,13 @@
 * print_most_numbers - Entry point
 * Return: void
 */
-void print_most_number(void)
+void print_most_numbers(void)
 {
-char cx;
-for (cx = '0'; cx <= '9'; cx++)
+char c;
+for (c = '0'; c <= '9'; c++)
 {
-if (!(cx == '2' || cx == '4'))
-_putchar(cx);
+if (!(c == '2' || c == '4'))
+_putchar(c);
 }
 _putchar('\n');
 }
