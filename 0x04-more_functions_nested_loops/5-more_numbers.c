@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * more_numbers - Entry point
 * Description: A program to display 1 to 14 ten times in a new line
