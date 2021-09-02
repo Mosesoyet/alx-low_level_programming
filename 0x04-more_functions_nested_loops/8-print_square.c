@@ -1,18 +1,18 @@
 #include "main.h"
-#include <stdio.h>
 /**
-* print_square - print square on screen
-* @size: the size of square
+* print_square - prints a square of size size
+* @size: size of square
+*
 * Return: void
 */
 void print_square(int size)
 {
-int n, m;
+int a, b;
 if (size <= 0)
 _putchar('\n');
-for (n = 0; n < size; n++)
+for (a = 0; a < size; a++)
 {
-for (m = 0; m < (size); m++);
+for (b = 0; b < (size); b++)
 {
 _putchar('#');
 }
