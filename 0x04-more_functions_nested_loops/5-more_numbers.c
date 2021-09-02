@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
 * more_numbers - Entry point
-* Description: A program to display 1 to 14 ten times in a new line
 * Return: void
 */
 void more_numbers(void)
@@ -18,7 +17,7 @@ else
 {
 c = a /10;
 b = a % 10;
-_putchar('0' + a);
+_putchar('0' + c);
 }
 _putchar('0' + b);
 }
