@@ -10,12 +10,12 @@ void print_square(int size)
 int n, m;
 if (size <= 0)
 _putchar('\n');
-for (a = 0; a < size; a++)
+for (n = 0; n < size; n++)
 {
-for (b = 0; b < (size); b++);
+for (m = 0; m < (size); m++);
 {
-putchar('#');
+_putchar('#');
 }
-putchar('\n');
+_putchar('\n');
 }
 }
