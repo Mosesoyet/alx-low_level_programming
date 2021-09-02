@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * print_digonal - Print didonal line
 * @n: length of the line
