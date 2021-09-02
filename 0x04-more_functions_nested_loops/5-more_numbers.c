@@ -1,23 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 /**
-* more_numbers - entry point
+* more_numbers - prints 01234567891011121314\n x10
+*
 * Return: void
 */
 void more_numbers(void)
 {
-int a, b, c, e;
-for (e = 0; e < 10; e++)
+char a, b, c, i;
+for (i = 0; i < 10; i++)
 {
-for (a = 0; a <= 14; a++)
+for (c = 0; c <= 14; c++)
 {
-if (a < 10)
-a = b;
+if (c < 10)
+b = c;
 else
 {
-c = a /10;
-b = a % 10;
-_putchar('0' + c);
+a = c / 10; 
+b = c % 10;
+_putchar('0' + a);
 }
 _putchar('0' + b);
 }
