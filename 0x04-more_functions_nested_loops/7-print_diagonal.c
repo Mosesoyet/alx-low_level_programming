@@ -16,7 +16,7 @@ for (b = 0; b < v; b++)
 {
 _putchar(' ');
 }
-_putchar('\\');
+_putchar('\');
 _putchar('\n');
 }
 }
