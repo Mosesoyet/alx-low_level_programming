@@ -1,5 +1,6 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
 * main - entry point
 * Description: prints the number 1 to 100 with Fizz for multiples of 3
