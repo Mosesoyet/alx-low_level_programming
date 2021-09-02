@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * print_line - Entry point
-* @n: Is the number of times to be printed
+* @n: is the number of times to be printed
 * Return: void
 */
 void print_line(int n)
