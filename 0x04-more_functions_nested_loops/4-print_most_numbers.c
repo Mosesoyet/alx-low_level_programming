@@ -9,10 +9,10 @@ void print_most_number(void)
 char cx;
 for (cx = '0'; cx <= '9'; cx++)
 {
-if (!(cx == '2' && cx == '4'))
-{
+if (!(cx == '2' || cx == '4'))
+
 _putchar((cx % 10) + '0');
-}
+
 }
 _putchar('\n');
 }
