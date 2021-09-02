@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * mul - Entry point
 * Desc: A program to multiply two integers
