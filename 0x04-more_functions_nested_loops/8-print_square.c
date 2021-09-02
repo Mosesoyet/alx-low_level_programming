@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * print_square - print square on screen
-* @size: The size of square
+* @size: the size of square
 * Return: void
 */
 void print_square(int size)
