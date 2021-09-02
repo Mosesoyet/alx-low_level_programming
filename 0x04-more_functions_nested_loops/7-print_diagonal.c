@@ -12,7 +12,7 @@ if (n <= 0)
 _putchar('\n');
 for (v = 0; v < n; v++)
 {
-for (b = 0; b < a; b++)
+for (b = 0; b < v; b++)
 {
 _putchar(' ');
 }
