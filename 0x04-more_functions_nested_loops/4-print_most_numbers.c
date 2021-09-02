@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * print_most_numbers - Entry point
 * Description: A code to print digit 0 to 9 exlusive of 2 and 4
