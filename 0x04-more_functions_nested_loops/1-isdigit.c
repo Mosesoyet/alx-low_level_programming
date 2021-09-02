@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * _isdigit - Entry point
 * Desc: A program to check for digit
