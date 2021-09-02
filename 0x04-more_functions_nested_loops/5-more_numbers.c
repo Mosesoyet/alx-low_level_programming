@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* more_numbers - Entry point
+* more_numbers - entry point
 * Return: void
 */
 void more_numbers(void)
 {
-int a, b, c,, e;
+int a, b, c, e;
 for (e = 0; e < 10; e++)
 {
 for (a = 0; a <= 14; a++)
