@@ -1,16 +1,14 @@
 #include "main.h"
-#include <stdio.h>
 /**
-* print_line - Entry point
-* @n: is the number of times to be printed
+* print_line - prints an underscore n times
+* @n: number of times printed
+*
 * Return: void
 */
 void print_line(int n)
 {
-int b;
-if (n <= 0)
-_putchar('\n');
-for (b = 0; b < n; b++)
+int i;
+for (i = 0; i < n; i++)
 {
 _putchar('_');
 }
