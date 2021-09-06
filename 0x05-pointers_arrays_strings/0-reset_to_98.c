@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * reset_to_98 - entry point
 * @n: pointer to reset
