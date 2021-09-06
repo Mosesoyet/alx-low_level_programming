@@ -6,9 +6,8 @@
 */
 void puts_half(char *str)
 {
-int a, b;
-b = 0;
-while (*(str + b)
+int a, b = 0;
+while (*(str + b))
 b++;
 a = b / 2;
 if (b % 2)
