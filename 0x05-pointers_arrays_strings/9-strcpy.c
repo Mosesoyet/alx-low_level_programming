@@ -5,7 +5,7 @@
 * @dest: the destination of copy
 * Return: the destination of copy
 */
-char *_strcpy(char *dest, *src)
+char *_strcpy(char *dest, char *src)
 {
 int i;
 while (*(src + i))
