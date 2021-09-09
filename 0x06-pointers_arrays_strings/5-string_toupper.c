@@ -1,18 +1,18 @@
 #include "main.h"
-#include <stdio.h>
 /**
-* string_toupper - print strings in upper case
-* @j: string to convert
-* Return: 0
+* string_toupper - changes all lowercase letters to uppercase
+* @s: string to change
+*
+* Return: address of s
 */
-char *string_toupper(char *j)
+char *string_toupper(char *s)
 {
 int i = 0;
-while (*(j + i))
+while (*(s + i))
 {
-if (*(j + i) >= 'a' && *(j + i) <= 'z')
-*(j + i) -= 'a' - 'A';
+if (*(s + i) >= 'a' && *(s + i) <= 'z')
+*(s + i) -= 'a' - 'A';
 i++;
 }
-return (0);
+return (s);
 }
