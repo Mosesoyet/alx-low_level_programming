@@ -7,7 +7,7 @@
 * @n: bytes to copy
 * Return: dest
 */
-char *memcpy(char *dest, char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 int i;
 for (i = 0; i < n; i++)
