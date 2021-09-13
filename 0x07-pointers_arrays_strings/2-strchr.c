@@ -16,5 +16,6 @@ return (s + j);
 }
 if (*(s + j) == c)
 return (s + j);
-return (0);
+else if (*(s + j) != c)
+return (NULL);
 }
