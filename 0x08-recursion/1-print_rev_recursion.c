@@ -11,6 +11,6 @@ while (*s == '\0')
 {
 return;
 }
-_putchar(s + 1);
+_print_rev_dtring(s + 1);
 _putchar(*s);
 }
