@@ -13,5 +13,5 @@ _putchar('\n');
 break;
 }
 _putchar(s[i]);
-_putchar(a[i] + 1)
+_putchar(s[i] + 1);
 }
