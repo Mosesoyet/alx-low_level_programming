@@ -11,5 +11,5 @@ if (y < 0)
 {
 return (-1);
 }
-return (x**y);
+return ((x**y) * _pow_recursion((x**y)  - 1));
 }
