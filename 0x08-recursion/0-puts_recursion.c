@@ -10,7 +10,7 @@ int i = 0;
 if (s[i] == '\0')
 {
 _putchar('\n');
-break;
+return;
 }
 _putchar(s[i]);
 _putchar(s[i] + 1);
