@@ -1,4 +1,0 @@
-default: libmy.0
-clang libmy.0 libmy.a -0 libmy
-
-
