@@ -8,9 +8,10 @@
 */
 size_t print_listint(const listint_t *h)
 {
+int count;
 h = (listint *) malloc(sizeof(listint));
-h->next = 0;
 while (h != 0)
 h = h->next;
 printf("%d", h->next);
+count++;
 }
