@@ -13,6 +13,6 @@ new = (listint_t *) malloc(sizeof(listint));
 new->next = 0;
 new = h;
 while (new != 0)
-new->next = new;
+new = new->next;
 printf("%d", new->n);
 }
