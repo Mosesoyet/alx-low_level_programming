@@ -9,7 +9,6 @@
 size_t print_listint(const listint_t *h)
 {
 size_t count = 0;
-h = (listint *) malloc(sizeof(listint));
 while (h != 0)
 {
 printf("%d\n", h->next);

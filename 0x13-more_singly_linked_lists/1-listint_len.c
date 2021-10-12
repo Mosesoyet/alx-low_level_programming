@@ -11,8 +11,8 @@ size_t count = 0;
 h = (listint_t *) malloc(sizeof(listint_t));
 while (h != 0)
 {
-h = h->next;
 count++;
+h = h->next;
 }
 return (count);
 }
