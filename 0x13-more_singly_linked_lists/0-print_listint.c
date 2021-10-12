@@ -8,11 +8,9 @@
 */
 size_t print_listint(const listint_t *h)
 {
-listint_t *new;
-new = (listint_t *) malloc(sizeof(listint));
-new->next = 0;
-new = h;
-while (new != 0)
-new = new->next;
-printf("%d", new->n);
+h = (listint *) malloc(sizeof(listint));
+h->next = 0;
+while (h != 0)
+h = h->next;
+printf("%d", h->next);
 }
