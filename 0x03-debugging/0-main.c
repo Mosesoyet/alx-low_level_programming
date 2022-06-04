@@ -9,15 +9,15 @@ void positive_or_negative(int i)
 {
 	if (i > 0)
 	{
-		return i is positive;
+		printf("%d is positive", i);
 	}
-	else if (i < 0)
+	else if (i == 0)
 	{
-		return i is negative;
+		printf("%d is 0", i);
 	}
 	else
 	{
-		return i is 0;
+		printf("%d is negative", i);
 	}
 }
 
