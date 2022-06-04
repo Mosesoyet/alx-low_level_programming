@@ -1,3 +1,5 @@
-## Create the file
-#Desc: this file has a special use
-Created by Moses
+## DEBUGGIN
+
+# A one time project to technically soften my debugging skill.
+
+For this project, I'll work on test files and checking errors in code
